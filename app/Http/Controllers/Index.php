@@ -8,6 +8,6 @@ class Index extends Controller
 {
     //
     public function index(){
-        echo "hello world!!";
+        return view('index.index');
     }
 }
